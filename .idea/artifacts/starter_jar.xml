@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="starter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/starter_jar</output-path>
+    <root id="archive" name="starter.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="starter" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/jenetics/jenetics/3.7.0/jenetics-3.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/uk/co/pacmanvghosts/pacman-main/2.0.1.0/pacman-main-2.0.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.11/reflections-0.9.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fossgalaxy/util/object-creator/1.3/object-creator-1.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
